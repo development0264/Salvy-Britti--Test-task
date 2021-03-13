@@ -1,15 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import React, { useState, useEffect } from 'react'
 import ScreenOne from './components/ScreenOne';
 import ScreenTwo from './components/ScreenTwo';
 import ScreenThree from './components/ScreenThree';
 import '../src/components/ScreenOne.css';
 import {
   BrowserRouter as Router,
-  Switch,
   Route,
-  Link
 } from "react-router-dom";
 
 // const ThemeContext = React.useContext()
