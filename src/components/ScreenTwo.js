@@ -13,7 +13,7 @@ function ScreenTwo(props) {
 
     useEffect(() => {
         setStateVal(state);
-    });
+    }, [state]);
 
     const handleClick = () => {
         switch (opd) {
