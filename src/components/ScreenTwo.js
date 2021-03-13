@@ -13,7 +13,7 @@ function ScreenTwo(props) {
 
     useEffect(() => {
         setStateVal(state);
-    }, []);
+    });
 
     const handleClick = () => {
         switch (opd) {
@@ -32,6 +32,8 @@ function ScreenTwo(props) {
             case '/': const div = stateVal / val2;
                 setResult(div);
                 setStateVal(div);
+                return;
+            default:
                 return;
         }
     }
